@@ -1,4 +1,4 @@
-res://scenes/Historia/Historia.tscn
+res://level/platforms/platform.tscn
 res://scenes/Historia/estilo_dialogo.tres
-res://scenes/Historia/historia.gd
-res://scenes/Creditos/Creditos.tscn
+res://level/tileset.tres
+res://level/props/wind_sway.tres

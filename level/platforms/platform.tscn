@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cky6e5nl0nyod"]
+[gd_scene load_steps=11 format=3 uid="uid://cky6e5nl0nyod"]
 
 [ext_resource type="Material" uid="uid://djwm5nol3d801" path="res://level/props/wind_sway.tres" id="1"]
 [ext_resource type="Texture2D" uid="uid://bxsmiv7k3fngt" path="res://level/platforms/moving_platform.webp" id="2"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://cqydct6vajobg" path="res://level/props/bush_1.webp" id="6"]
 [ext_resource type="Texture2D" uid="uid://bu54lwrkcng25" path="res://level/props/vine_2.webp" id="7"]
 [ext_resource type="Texture2D" uid="uid://bvu4vgnc84r84" path="res://level/props/vine_1.webp" id="8"]
+[ext_resource type="Texture2D" uid="uid://dea1a76o6b0ix" path="res://level/props/tree_2.webp" id="9_b4d34"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(192, 27)
@@ -172,3 +173,7 @@ material = ExtResource("1")
 position = Vector2(-61, 7)
 scale = Vector2(1, -1)
 texture = ExtResource("7")
+
+[node name="Tree2" type="Sprite2D" parent="."]
+position = Vector2(-64, -84)
+texture = ExtResource("9_b4d34")
