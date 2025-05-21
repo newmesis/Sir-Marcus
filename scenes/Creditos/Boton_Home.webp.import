@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm30qmo21hehn"
-path="res://.godot/imported/Sir Marcus-menu_creditos.webp-275409bb212a47195c4afac72ae55f34.ctex"
+uid="uid://cvydr3k8i2lm4"
+path="res://.godot/imported/Boton_Home.webp-e3fe5d9f12650f65fd03a31befd91e7b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/Creditos/Sir Marcus-menu_creditos.webp"
-dest_files=["res://.godot/imported/Sir Marcus-menu_creditos.webp-275409bb212a47195c4afac72ae55f34.ctex"]
+source_file="res://scenes/Historia/Boton_Home.webp"
+dest_files=["res://.godot/imported/Boton_Home.webp-e3fe5d9f12650f65fd03a31befd91e7b.ctex"]
 
 [params]
 

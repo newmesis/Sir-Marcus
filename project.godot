@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Sir Marcus"
+config/name="Sir Marcus - Una loca odisea"
 config/description="# Sir Marcus
 Hecho en GDScript
 Renderizado: Compatibility
