@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl7l2njkgfdwq"
-path="res://.godot/imported/SirMarcus.webp-f292d046eea42095535a75102e537b45.ctex"
+path="res://.godot/imported/SirMarcus.webp-da7fb745de29f7d298e87063513fe28d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/Historia/SirMarcus.webp"
-dest_files=["res://.godot/imported/SirMarcus.webp-f292d046eea42095535a75102e537b45.ctex"]
+source_file="res://scenes/Creditos/SirMarcus.webp"
+dest_files=["res://.godot/imported/SirMarcus.webp-da7fb745de29f7d298e87063513fe28d.ctex"]
 
 [params]
 

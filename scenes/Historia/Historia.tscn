@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://ckp0l4h5tyacm"]
 
 [ext_resource type="Script" uid="uid://ckov8gn8yqhhg" path="res://scenes/Historia/historia.gd" id="1_asinv"]
-[ext_resource type="Texture2D" uid="uid://bxq1ih7i1jgee" path="res://scenes/Historia/Sir Marcus-menu_historia.webp" id="1_gvyd4"]
+[ext_resource type="Texture2D" uid="uid://bxq1ih7i1jgee" path="res://scenes/Creditos/Sir Marcus-menu_historia.webp" id="1_gvyd4"]
 [ext_resource type="Texture2D" uid="uid://guh2frohxmwh" path="res://Boton_Continuar.webp" id="2_se1at"]
 [ext_resource type="Script" uid="uid://brt8pj2d7t4uk" path="res://button_continuar.gd" id="3_20grb"]
 [ext_resource type="Script" uid="uid://cekxx27x0fmp0" path="res://scenes/Historia/button_cuentame.gd" id="5_wqa5d"]

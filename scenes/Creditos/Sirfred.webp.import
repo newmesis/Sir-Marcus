@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ge86pjpls4pp"
-path="res://.godot/imported/Sirfred.webp-2743ceb55e3ce42db62aafd96f4d3ef1.ctex"
+path="res://.godot/imported/Sirfred.webp-aa55e737cca8da9e35261f0f8504e032.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/Historia/Sirfred.webp"
-dest_files=["res://.godot/imported/Sirfred.webp-2743ceb55e3ce42db62aafd96f4d3ef1.ctex"]
+source_file="res://scenes/Creditos/Sirfred.webp"
+dest_files=["res://.godot/imported/Sirfred.webp-aa55e737cca8da9e35261f0f8504e032.ctex"]
 
 [params]
 

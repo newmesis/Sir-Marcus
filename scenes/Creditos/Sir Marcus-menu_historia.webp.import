@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxq1ih7i1jgee"
-path="res://.godot/imported/Sir Marcus-menu_historia.webp-893ead2df300ab7d9fbd4fcc8217946f.ctex"
+path="res://.godot/imported/Sir Marcus-menu_historia.webp-c814cdeb6915bcd2ddb4aec477301852.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/Historia/Sir Marcus-menu_historia.webp"
-dest_files=["res://.godot/imported/Sir Marcus-menu_historia.webp-893ead2df300ab7d9fbd4fcc8217946f.ctex"]
+source_file="res://scenes/Creditos/Sir Marcus-menu_historia.webp"
+dest_files=["res://.godot/imported/Sir Marcus-menu_historia.webp-c814cdeb6915bcd2ddb4aec477301852.ctex"]
 
 [params]
 
