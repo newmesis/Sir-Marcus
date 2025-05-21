@@ -1,4 +1,2 @@
-res://level/platforms/platform.tscn
+res://Presentacion.tscn
 res://scenes/Historia/estilo_dialogo.tres
-res://level/tileset.tres
-res://level/props/wind_sway.tres
