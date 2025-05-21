@@ -1,0 +1,10 @@
+res://Presentacion.tscn
+res://presentacion.gd
+res://scenes/Creditos/Creditos.tscn
+res://scenes/Galeria/Galeria.tscn
+res://scenes/Historia/Historia.tscn
+res://scenes/MenuPrincipal/menu_principal.tscn
+res://scenes/Galeria/galeria.gd
+res://scenes/Historia/historia.dtl
+res://scenes/Historia/Sir Marcus.dch
+res://scenes/Historia/estilo_dialogo.tres

@@ -1,0 +1,14 @@
+Button
+Sprite2D
+TextureRect
+Control
+VideoStreamPlayer
+DialogicEditor
+AnimationPlayer
+Node2D
+TextureButton
+HSlider
+AudioStreamPlayer
+Label
+VSlider
+CollisionPolygon2D
