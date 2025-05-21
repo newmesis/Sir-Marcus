@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dggactv0aho4p"]
+
+[ext_resource type="PackedScene" uid="uid://dh71g61cm8k44" path="res://gui/pause_menu.tscn" id="1_x3hgi"]
+[ext_resource type="Texture2D" uid="uid://d2voes6cwx8lk" path="res://Boton 02.webp" id="4_qe8vt"]
+
+[node name="PauseMenu" instance=ExtResource("1_x3hgi")]
+
+[node name="Label" parent="ColorRect/CenterContainer/VBoxContainer" index="0"]
+text = "Juego en Pausa"
+
+[node name="SingleplayerButton" type="Button" parent="ColorRect/CenterContainer/VBoxContainer" index="3"]
+layout_mode = 2
+icon = ExtResource("4_qe8vt")
+flat = true
+
+[node name="Boton04" parent="ColorRect/CenterContainer/VBoxContainer" index="5"]
+position = Vector2(114, -45)
+
+[node name="CoinsCounter" parent="ColorRect" index="1"]
+offset_left = 46.0
+offset_top = 398.0
+offset_right = 235.0
+offset_bottom = 448.0
+
+[connection signal="pressed" from="ColorRect/CenterContainer/VBoxContainer/SingleplayerButton" to="." method="_on_singleplayer_button_pressed"]

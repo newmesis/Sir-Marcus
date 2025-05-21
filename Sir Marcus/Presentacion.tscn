@@ -1,0 +1,54 @@
+[gd_scene load_steps=7 format=3 uid="uid://bqn1qoxc2g8cp"]
+
+[ext_resource type="Script" uid="uid://b51cvae43o4wg" path="res://presentacion.gd" id="1_bqhdm"]
+[ext_resource type="Texture2D" uid="uid://ehkjljr7sgem" path="res://Sir Marcus_Presentacion.webp" id="1_tn8pt"]
+[ext_resource type="Texture2D" uid="uid://guh2frohxmwh" path="res://Boton_Continuar.webp" id="2_nc3lv"]
+[ext_resource type="Script" uid="uid://brt8pj2d7t4uk" path="res://button_continuar.gd" id="3_onoeh"]
+[ext_resource type="VideoStream" uid="uid://c38fg0m6em46o" path="res://scenes/video/demo_01.ogv" id="5_p3vbn"]
+[ext_resource type="Script" uid="uid://b4nq5a04ci6l3" path="res://button_play_stop.gd" id="6_kyib7"]
+
+[node name="Presentacion" type="Node2D"]
+script = ExtResource("1_bqhdm")
+
+[node name="SirMarcus" type="Sprite2D" parent="."]
+position = Vector2(399.551, 239.938)
+scale = Vector2(0.415158, 0.447655)
+texture = ExtResource("1_tn8pt")
+
+[node name="Button_Continuar" type="Button" parent="."]
+offset_left = 646.0
+offset_top = 423.0
+offset_right = 872.0
+offset_bottom = 497.0
+scale = Vector2(0.596129, 0.582667)
+icon = ExtResource("2_nc3lv")
+flat = true
+script = ExtResource("3_onoeh")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_left = 347.0
+offset_top = 163.0
+offset_right = 2263.0
+offset_bottom = 1241.0
+scale = Vector2(0.197033, 0.210774)
+stream = ExtResource("5_p3vbn")
+autoplay = true
+
+[node name="Button_play" type="Button" parent="."]
+offset_left = 451.0
+offset_top = 432.0
+offset_right = 541.0
+offset_bottom = 463.0
+text = "Play"
+script = ExtResource("6_kyib7")
+
+[node name="Button_stop" type="Button" parent="."]
+offset_left = 369.0
+offset_top = 432.0
+offset_right = 434.0
+offset_bottom = 464.0
+text = "Stop"
+
+[connection signal="pressed" from="Button_Continuar" to="Button_Continuar" method="_on_pressed"]
+[connection signal="pressed" from="Button_play" to="." method="_on_button_play_stop_pressed"]
+[connection signal="pressed" from="Button_stop" to="." method="_on_button_stop_pressed"]

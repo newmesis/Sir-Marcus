@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747248428
+::res://::1747811779
 Boton 01.webp::CompressedTexture2D/CompressedTexture2D::133733727078892586::1743700410::1743700412::1::::<><><>0<>0<>7d4aaa6319c3c9c53b01f80179199072<>res://.godot/imported/Boton 01.webp-c27bebbad7f51469e9578472b04dab05.ctex::
 Boton 02.webp::CompressedTexture2D/CompressedTexture2D::9098570936646235164::1743700540::1743700625::1::::<><><>0<>0<>e0bb11a6c939fc2b3fccff1cbd40c847<>res://.godot/imported/Boton 02.webp-60d9b0aa0dbed4f0fb3fb4a59ef24362.ctex::
 Boton 03.webp::CompressedTexture2D/CompressedTexture2D::1458875747232761267::1743700589::1743700625::1::::<><><>0<>0<>5f3e7b9f458595df377f75b5ee1d668d<>res://.godot/imported/Boton 03.webp-77e33c80cd436fe41b6b613528b033dd.ctex::
@@ -7,7 +7,8 @@ Boton 04.webp::CompressedTexture2D/CompressedTexture2D::6836108346633476504::174
 Boton 05.webp::CompressedTexture2D/CompressedTexture2D::8033873246969233187::1743701082::1743701084::1::::<><><>0<>0<>d5e9c34804c244b4d229b33db3211c55<>res://.godot/imported/Boton 05.webp-f7c9625750bd907ee0eeffe35e7553e5.ctex::
 Boton_Continuar.webp::CompressedTexture2D/CompressedTexture2D::462894141818981963::1743702623::1746643016::1::::<><><>0<>0<>85982c61ed3952c0242be63fc886b847<>res://.godot/imported/Boton_Continuar.webp-4a2a7ad174fa052fc289fe19c6bc0d7f.ctex::
 Boton_Home.webp::CompressedTexture2D/CompressedTexture2D::7293720616846830393::1743702986::1743702986::1::::<><><>0<>0<>793a0ca9364c2d150b5e6d71f09ac9c2<>res://.godot/imported/Boton_Home.webp-2748e15369fed08998275c16d7df7e6f.ctex::
-button_continuar.gd::GDScript/GDScript::3620885165136374622::1747213197::0::1::::<>Button<><>0<>0<><>::
+button_continuar.gd::GDScript/GDScript::3620885165136374622::1747296335::0::1::::<>Button<><>0<>0<><>::
+button_play_stop.gd::GDScript/GDScript::4449759145640988622::1747297939::0::1::::<>Button<><>0<>0<><>::
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::6419567431398995635::1741886336::0::1::::<><><>0<>0<><>::
 fantasy-medieval-ambient-237371.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::332700216409064066::1743160052::1743160052::1::::<><><>0<>0<>a464da4ed823c29955f2650c604bbc7f<>res://.godot/imported/fantasy-medieval-ambient-237371.ogg-3afca8b5a0fa0e042106b8a5153e5305.oggvorbisstr::
 game.gd::GDScript/GDScript::7983200702381616203::1743156731::0::1::::Game<>Node<><>0<>0<><>::
@@ -21,8 +22,8 @@ medieval-background-196571.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::17897
 musica.gd::GDScript/GDScript::6878525372153347577::1746695395::0::1::::<>Node2D<><>0<>0<><>::
 Musica.tscn::PackedScene/PackedScene::1662550279067676781::1747209652::0::1::::<><><>0<>0<><>::uid://c5aakp7i4w0xh::::res://musica.gd<>uid://dpc3qsvj5lekt::::res://medieval-ambient-236809.ogg
 New-button.png::CompressedTexture2D/CompressedTexture2D::8832788492131680826::1743700125::1743700138::1::::<><><>0<>0<>3cf69cdeca3e75d23fb9d38d7af02fed<>res://.godot/imported/New-button.png-238a31ce94daed6a5e1131912f3e83ea.ctex::
-presentacion.gd::GDScript::4545918757632009398::1747247553::0::1::::<>Node2D<><>0<>0<><>::
-Presentacion.tscn::PackedScene::3537887078203432247::1747248427::0::1::::<><><>0<>0<><>::uid://b51cvae43o4wg::::res://presentacion.gd<>uid://ehkjljr7sgem::::res://Sir Marcus_Presentacion.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
+presentacion.gd::GDScript/GDScript::4545918757632009398::1747299098::0::1::::<>Node2D<><>0<>0<><>::
+Presentacion.tscn::PackedScene::3537887078203432247::1747299617::0::1::::<><><>0<>0<><>::uid://b51cvae43o4wg::::res://presentacion.gd<>uid://ehkjljr7sgem::::res://Sir Marcus_Presentacion.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd<>uid://c38fg0m6em46o::::res://scenes/video/demo_01.ogv<>uid://b4nq5a04ci6l3::::res://button_play_stop.gd
 README.md::TextFile/TextFile::-1::1747152138::0::1::::<><><>0<>0<><>::
 Sir Marcus_Presentacion.webp::CompressedTexture2D/CompressedTexture2D::295829853379327516::1743702040::1746643016::1::::<><><>0<>0<>dc250ad23e592708d3469d8f10b097d1<>res://.godot/imported/Sir Marcus_Presentacion.webp-1dd2f2b70c9f2af6ef9864d6926c9dc5.ctex::
 video_stream_player.gd::GDScript/GDScript::8037596500928367770::1747157721::0::1::::<>VideoStreamPlayer<><>0<>0<><>::
@@ -575,12 +576,12 @@ event_text.gd::GDScript/GDScript::6024665929292107347::1747148914::0::1::::Dialo
 icon.svg::CompressedTexture2D/CompressedTexture2D::9151163472776694991::1747148914::1747148918::1::::<><><>0<>0<>c3322103d45750d096f11ecd03411177<>res://.godot/imported/icon.svg-e2501ddcdef01c7f2c3538940f5abfc1.ctex::
 index.gd::GDScript/GDScript::7374156079182480401::1747148914::0::1::::<>DialogicIndexer<><>0<>1<><>::
 manual_advance.gd::GDScript/GDScript::4834284863355090368::1747148914::0::1::::DialogicManualAdvance<>RefCounted<><>0<>0<><>::
-node_dialog_text.gd::GDScript/GDScript::4067915727625331341::1747148914::0::1::::DialogicNode_DialogText<>RichTextLabel<><>0<>0<><>::
+node_dialog_text.gd::GDScript/GDScript::4067915727625331341::1747148914::0::1::::DialogicNode_DialogText<>RichTextLabel<>res://addons/dialogic/Modules/Text/node_dialog_text_icon.svg<>0<>0<><>::
 node_dialog_text_icon.svg::CompressedTexture2D/CompressedTexture2D::4044689466443943908::1747148914::1747148918::1::::<><><>0<>0<>497fe8cd6cb72aeedb7077c36069c336<>res://.godot/imported/node_dialog_text_icon.svg-3cf845e99d76137d8156865c09f39e3e.ctex::
 node_input.gd::GDScript/GDScript::8412814323835636342::1747148914::0::1::::DialogicNode_Input<>Control<><>0<>0<><>::
-node_name_label.gd::GDScript/GDScript::3588092248229409712::1747148914::0::1::::DialogicNode_NameLabel<>Label<><>0<>0<><>::
+node_name_label.gd::GDScript/GDScript::3588092248229409712::1747148914::0::1::::DialogicNode_NameLabel<>Label<>res://addons/dialogic/Modules/Text/node_name_label_icon.svg<>0<>0<><>::
 node_name_label_icon.svg::CompressedTexture2D/CompressedTexture2D::753910208124862534::1747148914::1747148918::1::::<><><>0<>0<>3bc6897be0d1bfc61b99594389e51bf2<>res://.godot/imported/node_name_label_icon.svg-d482939b74b41ec2da6edc97e41c8bf8.ctex::
-node_next_indicator.gd::GDScript/GDScript::5471781723629695228::1747148914::0::1::::DialogicNode_NextIndicator<>Control<><>0<>0<><>::
+node_next_indicator.gd::GDScript/GDScript::5471781723629695228::1747148914::0::1::::DialogicNode_NextIndicator<>Control<>res://addons/dialogic/Modules/Text/node_next_indicator_icon.svg<>0<>0<><>::
 node_next_indicator_icon.svg::CompressedTexture2D/CompressedTexture2D::302873534409359568::1747148914::1747148918::1::::<><><>0<>0<>d16cf5e370ce5bad31aa615e40bbdce1<>res://.godot/imported/node_next_indicator_icon.svg-06167a3b3e290941c1c34386ebd60af8.ctex::
 node_type_sound.gd::GDScript/GDScript::8299827194318064327::1747148914::0::1::::DialogicNode_TypeSounds<>AudioStreamPlayer<><>0<>1<><>::
 settings_text.gd::GDScript/GDScript::8628180897315401557::1747148914::0::1::::<>DialogicSettingsPage<><>0<>1<><>::
@@ -665,14 +666,14 @@ touch_button_fire.webp::CompressedTexture2D/CompressedTexture2D::134736217136126
 touch_button_jump.webp::CompressedTexture2D/CompressedTexture2D::6985027075830143774::1741886336::1743155530::1::::<><><>0<>0<>5bdf1134ea13dfa4c08878e57a004953<>res://.godot/imported/touch_button_jump.webp-72d09f543801d684298fbadf893197c2.ctex::
 touch_button_left.webp::CompressedTexture2D/CompressedTexture2D::2330250603665238312::1741886336::1743155530::1::::<><><>0<>0<>6fb352605557d32152c79998c70518cc<>res://.godot/imported/touch_button_left.webp-f44154539d59fd4f5b3597e8703bbc6a.ctex::
 touch_button_right.webp::CompressedTexture2D/CompressedTexture2D::9135943133186757406::1741886336::1743155530::1::::<><><>0<>0<>02daec4e6898a9f026a196a21376e2c9<>res://.godot/imported/touch_button_right.webp-ec9f97ce35fcf0bf570ff19f4fcaecc8.ctex::
-::res://level/::1747147833
+::res://level/::1747299571
 coin.gd::GDScript/GDScript::4024653853401705187::1741886336::0::1::::Coin<>Area2D<><>0<>0<><>::
 coin.tscn::PackedScene/PackedScene::6744805497863545910::1743155558::0::1::::<><><>0<>0<><>::uid://cj2absxg54f75::::res://level/coin.webp<>uid://w4j7xs5uhoer::::res://player/coin_pickup.wav<>uid://bxltpw4oof3v8::::res://level/coin.gd
 coin.webp::CompressedTexture2D/CompressedTexture2D::5460281926546665914::1741886336::1743155530::1::::<><><>0<>0<>e8a8425f37db6217a9db32122c7c1f9d<>res://.godot/imported/coin.webp-1d50c095672512acb2df6e9dbf7e85c6.ctex::
 level.gd::GDScript/GDScript::9126630667258302341::1741886336::0::1::::<>Node2D<><>0<>0<><>::
 level.tscn::PackedScene/PackedScene::6120051906242158291::1743193425::0::1::::<><><>0<>0<><>::uid://08mkofgbxx70::::res://level/tileset.tres<>uid://6mtip3ruyn::::res://enemy/enemy.tscn<>uid://cky6e5nl0nyod::::res://level/platforms/platform.tscn<>uid://c3dh7xb6ef76q::::res://level/coin.tscn<>uid://bxsmiv7k3fngt::::res://level/platforms/moving_platform.webp<>uid://cw6nldo3rjyyq::::res://level/background/parallax_background.tscn<>uid://bj6am5nfc0k73::::res://level/props/grass_1.webp<>uid://ddmq5iwm2qd1j::::res://level/props/flower_1.webp<>uid://bju7r7jqn8bqy::::res://level/props/grass_2.webp<>uid://upfcr5xg5fvh::::res://level/props/grass_3.webp<>uid://icddaryasunc::::res://level/props/tree_1.webp<>uid://dea1a76o6b0ix::::res://level/props/tree_2.webp<>uid://cqydct6vajobg::::res://level/props/bush_1.webp<>uid://co8bwstg3ea6x::::res://level/props/rock_1.webp<>uid://djwm5nol3d801::::res://level/props/wind_sway.tres<>uid://c5xpotfxdi0ms::::res://level/props/fern_1.webp<>uid://crfy1osk1c1gc::::res://level/props/ground_flowers_1.webp<>uid://bvu4vgnc84r84::::res://level/props/vine_1.webp<>uid://bu54lwrkcng25::::res://level/props/vine_2.webp
 tiles.webp::CompressedTexture2D/CompressedTexture2D::8943829051513271016::1743698968::1743699015::1::::<><><>0<>0<>0ddc491255259d7f7fb4311ce4c2b4e5<>res://.godot/imported/tiles.webp-4f56cd8ea452f8ba920d65a0b9099010.ctex::
-tileset.tres::TileSet/TileSet::1823592762012833405::1747147833::0::1::::<><><>0<>0<><>::uid://d0ops71sk562g::::res://level/tiles.webp
+tileset.tres::TileSet::1823592762012833405::1747299571::0::1::::<><><>0<>0<><>::uid://d0ops71sk562g::::res://level/tiles.webp
 ::res://level/background/::1743163666
 cloud_1.webp::CompressedTexture2D/CompressedTexture2D::1402597424691276910::1741886336::1743155530::1::::<><><>0<>0<>401a40136954054441ab4dd622b61dff<>res://.godot/imported/cloud_1.webp-c65f6a46c6e6e73306ba4ed0326c749e.ctex::
 cloud_2.webp::CompressedTexture2D/CompressedTexture2D::8571280549519457095::1741886336::1743155530::1::::<><><>0<>0<>a2a34dc0d297ca5a1192cec74e1ebc64<>res://.godot/imported/cloud_2.webp-32c8608178e58b5f5de05f3d51d6cca6.ctex::
@@ -711,14 +712,14 @@ player.tscn::PackedScene/PackedScene::1490386745740603214::1743701150::0::1::::<
 robot.webp::CompressedTexture2D/CompressedTexture2D::4980187363432508418::1743692839::1743692940::1::::<><><>0<>0<>99f0f0a04207b3f7e058a7efe7d0d8fb<>res://.godot/imported/robot.webp-39f680d53df0b170662860aae7393568.ctex::
 shoot.wav::AudioStreamWAV/AudioStreamWAV::4194907962194048044::1741886337::1743155530::1::::<><><>0<>0<>7c8007328f6ddec79247c706df85ccf3<>res://.godot/imported/shoot.wav-c76164c7ce3589c9fdcbf989e9819ed2.sample::
 ::res://scenes/::1747153256
-::res://scenes/Creditos/::1747248427
-Creditos.tscn::PackedScene::8484066955903105517::1747248427::0::1::::<><><>0<>0<><>::uid://dm30qmo21hehn::::res://scenes/Creditos/Sir Marcus-menu_creditos.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
+::res://scenes/Creditos/::1747298072
+Creditos.tscn::PackedScene/PackedScene::8484066955903105517::1747298072::0::1::::<><><>0<>0<><>::uid://dm30qmo21hehn::::res://scenes/Creditos/Sir Marcus-menu_creditos.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
 Sir Marcus-menu_creditos.webp::CompressedTexture2D/CompressedTexture2D::8060877902540250179::1743702200::1746642799::1::::<><><>0<>0<>ee07abe02038b164451d9a1a73378542<>res://.godot/imported/Sir Marcus-menu_creditos.webp-275409bb212a47195c4afac72ae55f34.ctex::
-::res://scenes/Galeria/::1747248428
+::res://scenes/Galeria/::1747298072
 Boton_Home.webp::CompressedTexture2D/CompressedTexture2D::2427252680582298311::1743702959::1746642794::1::::<><><>0<>0<>09e7948308ecb6d8a57ff4991fd79940<>res://.godot/imported/Boton_Home.webp-0e25d6fb43ba087ac553ed9d67fa95a1.ctex::
 button_siguiente.gd::GDScript/GDScript::6682514838779112219::1747210387::0::1::::<>Button<><>0<>0<><>::
-galeria.gd::GDScript::353251198913176266::1747247816::0::1::::<>Node2D<><>0<>0<><>::
-Galeria.tscn::PackedScene::8127680637189500917::1747248428::0::1::::<><><>0<>0<><>::uid://fbd837pq88kk::::res://scenes/Galeria/galeria.gd<>uid://c8w6e35jlqyit::::res://scenes/Galeria/Sir Marcus-menu_galeria.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd<>uid://cx1cn0kw8i7pr::::res://scenes/Galeria/Imagenes/1.jpg
+galeria.gd::GDScript/GDScript::353251198913176266::1747247816::0::1::::<>Node2D<><>0<>0<><>::
+Galeria.tscn::PackedScene/PackedScene::8127680637189500917::1747298072::0::1::::<><><>0<>0<><>::uid://fbd837pq88kk::::res://scenes/Galeria/galeria.gd<>uid://c8w6e35jlqyit::::res://scenes/Galeria/Sir Marcus-menu_galeria.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd<>uid://cx1cn0kw8i7pr::::res://scenes/Galeria/Imagenes/1.jpg
 Sir Marcus-menu_galeria.webp::CompressedTexture2D/CompressedTexture2D::7136380405404177747::1743702179::1746642795::1::::<><><>0<>0<>212972d9655073e26a7d67e3472212eb<>res://.godot/imported/Sir Marcus-menu_galeria.webp-cbbc9d0b5919ef2c993cb1956fc9e0f6.ctex::
 texture_button_galeria.gd::GDScript/GDScript::2114743678268365785::1747210582::0::1::::<>TextureButton<><>0<>0<><>::
 ::res://scenes/Galeria/Imagenes/::1747246624
@@ -739,24 +740,26 @@ IMG_004.bmp::CompressedTexture2D/CompressedTexture2D::1208757919566454461::17472
 IMG_005.bmp::CompressedTexture2D/CompressedTexture2D::6851875941222086157::1747245137::1747246624::0::::<><><>0<>0<>6af9a5c8dabdd3bae43e5b256fd3c884<>::
 IMG_006.bmp::CompressedTexture2D/CompressedTexture2D::8573855731863612781::1747245372::1747246624::0::::<><><>0<>0<>7f846e45e0f9f985545b47d12b596623<>::
 IMG_007.bmp::CompressedTexture2D/CompressedTexture2D::3882461895667828389::1747245606::1747246624::0::::<><><>0<>0<>b5b7af7516f6e097afbe6286a9022c62<>::
-::res://scenes/Historia/::1747248494
+::res://scenes/Historia/::1747299616
 Boton_Home.webp::CompressedTexture2D/CompressedTexture2D::6296566146969981657::1743702907::1746642790::1::::<><><>0<>0<>d981a2c1485715511696b5187aa191d7<>res://.godot/imported/Boton_Home.webp-e3fe5d9f12650f65fd03a31befd91e7b.ctex::
-button_cuentame.gd::GDScript/GDScript::5075679552215199967::1747213468::0::1::::<>Button<><>0<>0<><>::
+button_cuentame.gd::GDScript/GDScript::5075679552215199967::1747299098::0::1::::<>Button<><>0<>0<><>::
+estilo_dialogo.tres::Resource/DialogicStyle::4022589168043090453::1747299571::0::1::::<><><>0<>0<><>::uid://cbvvnpn8ryt::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://b27u5b7wa6plx::::res://addons/dialogic/Resources/dialogic_style.gd
 Historia para el dialogo.txt::TextFile/TextFile::-1::1747152401::0::1::::<><><>0<>0<><>::
-historia.dtl::Resource/DialogicTimeline::657345448211144318::1747212993::0::1::::<><><>0<>0<><>::
-Historia.tscn::PackedScene::5507234574009719616::1747248428::0::1::::<><><>0<>0<><>::uid://bxq1ih7i1jgee::::res://scenes/Historia/Sir Marcus-menu_historia.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd<>uid://cekxx27x0fmp0::::res://scenes/Historia/button_cuentame.gd
-estilo_dialogo.tres::Resource/DialogicStyle::4022589168043090453::1747248388::0::1::::<><><>0<>0<><>::uid://cbvvnpn8ryt::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://b27u5b7wa6plx::::res://addons/dialogic/Resources/dialogic_style.gd
+historia.dtl::Resource/DialogicTimeline::657345448211144318::1747299018::0::1::::<><><>0<>0<><>::
+historia.gd::GDScript::5504965417124956656::1747299571::0::1::::<>Node2D<><>0<>0<><>::
+Historia.tscn::PackedScene::5507234574009719616::1747299616::0::1::::<><><>0<>0<><>::uid://ckov8gn8yqhhg::::res://scenes/Historia/historia.gd<>uid://bxq1ih7i1jgee::::res://scenes/Historia/Sir Marcus-menu_historia.webp<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd<>uid://cekxx27x0fmp0::::res://scenes/Historia/button_cuentame.gd
 Sir Marcus-menu_historia.webp::CompressedTexture2D/CompressedTexture2D::4035387477091750796::1743702148::1746642790::1::::<><><>0<>0<>5c268e52a374340f16a39dec50a9881b<>res://.godot/imported/Sir Marcus-menu_historia.webp-893ead2df300ab7d9fbd4fcc8217946f.ctex::
-Sir Marcus.dch::Resource/DialogicCharacter::3726006906675044108::1747248375::0::1::::<><><>0<>0<><>::
-SirMarcus.webp::CompressedTexture2D::3225274852366598032::1747248494::1747248498::1::::<><><>0<>0<>03fa61d606bec47c9b77020ca6142b2c<>res://.godot/imported/SirMarcus.webp-f292d046eea42095535a75102e537b45.ctex::
-::res://scenes/MenuPrincipal/::1747248428
+Sir Marcus.dch::Resource/DialogicCharacter::3726006906675044108::1747295387::0::1::::<><><>0<>0<><>::
+Sirfred.webp::CompressedTexture2D/CompressedTexture2D::431450395667242977::1747294787::1747294787::1::::<><><>0<>0<>ebee98d4fb3daf7874beb391196f7ca8<>res://.godot/imported/Sirfred.webp-2743ceb55e3ce42db62aafd96f4d3ef1.ctex::
+SirMarcus.webp::CompressedTexture2D/CompressedTexture2D::3225274852366598032::1747248494::1747248498::1::::<><><>0<>0<>03fa61d606bec47c9b77020ca6142b2c<>res://.godot/imported/SirMarcus.webp-f292d046eea42095535a75102e537b45.ctex::
+::res://scenes/MenuPrincipal/::1747299617
 Boton_Creditos.webp::CompressedTexture2D/CompressedTexture2D::1751600312367909985::1743702704::1746642782::1::::<><><>0<>0<>18301cefc38c6a731d3ddd487f4624e6<>res://.godot/imported/Boton_Creditos.webp-88d6ac2a72b2a5e7e4ec433e926be4b9.ctex::
 Boton_Galeria.webp::CompressedTexture2D/CompressedTexture2D::743948294152240977::1743702670::1746642782::1::::<><><>0<>0<>f8f3fad83f936fdb485833ff1ed1bfb4<>res://.godot/imported/Boton_Galeria.webp-5485b051d9fba02df339d7a591184cd5.ctex::
 Boton_Historia.webp::CompressedTexture2D/CompressedTexture2D::924637717911591259::1743702732::1746642782::1::::<><><>0<>0<>0c07041a9d5a09526dff5e436a4f869f<>res://.godot/imported/Boton_Historia.webp-1372c7f0bdd965d727517c74b186c9be.ctex::
 boton_jugar.gd::GDScript/GDScript::1851217415211395977::1746644001::0::1::::<>Button<><>0<>0<><>::
 Boton_Jugar.webp::CompressedTexture2D/CompressedTexture2D::5081518746096145099::1743702772::1746642782::1::::<><><>0<>0<>f73ba16c58651e249f3f19992aa5260d<>res://.godot/imported/Boton_Jugar.webp-0887ac00f3bcee508e49fa9e1c20ea1d.ctex::
 menu_principal.gd::GDScript/GDScript::4563833317507223306::1746695849::0::1::::<>Node2D<><>0<>0<><>::
-menu_principal.tscn::PackedScene::5013485351767037479::1747248428::0::1::::<><><>0<>0<><>::uid://b6a0wyfkioyq1::::res://scenes/MenuPrincipal/menu_principal.gd<>uid://b4gyp6h06ceik::::res://scenes/MenuPrincipal/Sir Marcus-menu_principal.webp<>uid://nf5wbh20u7w6::::res://scenes/MenuPrincipal/Boton_Historia.webp<>uid://y7qupa35iixt::::res://scenes/MenuPrincipal/Boton_Creditos.webp<>uid://kumyp8tx0o7b::::res://scenes/MenuPrincipal/Boton_Galeria.webp<>uid://cenr4viylva08::::res://scenes/MenuPrincipal/Boton_Jugar.webp<>uid://1m0jsdmhf86p::::res://scenes/MenuPrincipal/boton_jugar.gd<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
+menu_principal.tscn::PackedScene::5013485351767037479::1747299617::0::1::::<><><>0<>0<><>::uid://b6a0wyfkioyq1::::res://scenes/MenuPrincipal/menu_principal.gd<>uid://b4gyp6h06ceik::::res://scenes/MenuPrincipal/Sir Marcus-menu_principal.webp<>uid://nf5wbh20u7w6::::res://scenes/MenuPrincipal/Boton_Historia.webp<>uid://y7qupa35iixt::::res://scenes/MenuPrincipal/Boton_Creditos.webp<>uid://kumyp8tx0o7b::::res://scenes/MenuPrincipal/Boton_Galeria.webp<>uid://cenr4viylva08::::res://scenes/MenuPrincipal/Boton_Jugar.webp<>uid://1m0jsdmhf86p::::res://scenes/MenuPrincipal/boton_jugar.gd<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
 Sir Marcus-menu_principal.webp::CompressedTexture2D/CompressedTexture2D::4435769050670248330::1743702111::1746642783::1::::<><><>0<>0<>f54eb7b75320aeeba9e41aa117c358d6<>res://.godot/imported/Sir Marcus-menu_principal.webp-f47c9879c4dacf10d1e9b5daefa355ea.ctex::
 ::res://scenes/video/::1747247518
-demo_01.ogv::VideoStreamTheora::6806569087898099488::1747247445::0::1::::<><><>0<>0<><>::
+demo_01.ogv::VideoStreamTheora/VideoStreamTheora::6806569087898099488::1747247445::0::1::::<><><>0<>0<><>::

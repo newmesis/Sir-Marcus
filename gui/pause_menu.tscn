@@ -1,0 +1,84 @@
+[gd_scene load_steps=9 format=3 uid="uid://dh71g61cm8k44"]
+
+[ext_resource type="Theme" uid="uid://da4noqsij73it" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://bdsunj6dgk7xh" path="res://gui/pause_menu.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://b51tsvxmr2kc" path="res://Boton 01.webp" id="3_wgfy1"]
+[ext_resource type="PackedScene" uid="uid://bsyqg6eh3wl5i" path="res://gui/coins_counter.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://u1xp82df24st" path="res://Boton 03.webp" id="4_utpf2"]
+[ext_resource type="Texture2D" uid="uid://c4npx81422ige" path="res://Boton 04.webp" id="5_t8x3w"]
+[ext_resource type="Texture2D" uid="uid://guh2frohxmwh" path="res://Boton_Continuar.webp" id="6_t8x3w"]
+[ext_resource type="Script" uid="uid://brt8pj2d7t4uk" path="res://button_continuar.gd" id="7_xxxk4"]
+
+[node name="PauseMenu" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.294118)
+
+[node name="CenterContainer" type="CenterContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect/CenterContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="ColorRect/CenterContainer/VBoxContainer"]
+visible = false
+layout_mode = 2
+text = "Game Paused"
+horizontal_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="ColorRect/CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="ResumeButton" type="Button" parent="ColorRect/CenterContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+icon = ExtResource("3_wgfy1")
+flat = true
+
+[node name="QuitButton" type="Button" parent="ColorRect/CenterContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+icon = ExtResource("4_utpf2")
+flat = true
+
+[node name="Boton04" type="Sprite2D" parent="ColorRect/CenterContainer/VBoxContainer"]
+position = Vector2(116, -55)
+texture = ExtResource("5_t8x3w")
+
+[node name="Button_Continuar" type="Button" parent="ColorRect/CenterContainer/VBoxContainer"]
+layout_mode = 2
+icon = ExtResource("6_t8x3w")
+flat = true
+script = ExtResource("7_xxxk4")
+
+[node name="CoinsCounter" parent="ColorRect" instance=ExtResource("4")]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 420.0
+offset_right = 215.0
+offset_bottom = 460.0
+
+[connection signal="pressed" from="ColorRect/CenterContainer/VBoxContainer/ResumeButton" to="." method="_on_resume_button_pressed"]
+[connection signal="pressed" from="ColorRect/CenterContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="ColorRect/CenterContainer/VBoxContainer/Button_Continuar" to="ColorRect/CenterContainer/VBoxContainer/Button_Continuar" method="_on_pressed"]

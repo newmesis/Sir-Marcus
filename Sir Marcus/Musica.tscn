@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://xxl7v8qvgein"]
+
+[ext_resource type="Script" uid="uid://c5aakp7i4w0xh" path="res://musica.gd" id="1_dgrbd"]
+[ext_resource type="AudioStream" uid="uid://dpc3qsvj5lekt" path="res://medieval-ambient-236809.ogg" id="2_yx6f1"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_dgrbd")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_yx6f1")

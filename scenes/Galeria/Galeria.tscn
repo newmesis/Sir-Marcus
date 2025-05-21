@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3 uid="uid://dn2dyh2bee7un"]
+
+[ext_resource type="Script" uid="uid://fbd837pq88kk" path="res://scenes/Galeria/galeria.gd" id="1_ub45t"]
+[ext_resource type="Texture2D" uid="uid://c8w6e35jlqyit" path="res://scenes/Galeria/Sir Marcus-menu_galeria.webp" id="1_upox5"]
+[ext_resource type="Texture2D" uid="uid://guh2frohxmwh" path="res://Boton_Continuar.webp" id="2_vntj8"]
+[ext_resource type="Script" uid="uid://brt8pj2d7t4uk" path="res://button_continuar.gd" id="3_1ihsh"]
+[ext_resource type="Texture2D" uid="uid://cx1cn0kw8i7pr" path="res://scenes/Galeria/Imagenes/1.jpg" id="5_p3b43"]
+
+[node name="Galeria" type="Node2D"]
+script = ExtResource("1_ub45t")
+
+[node name="SirMarcus-menuGaleria" type="Sprite2D" parent="."]
+position = Vector2(399.871, 239.687)
+scale = Vector2(0.415622, 0.444406)
+texture = ExtResource("1_upox5")
+
+[node name="img" type="Sprite2D" parent="."]
+position = Vector2(429, 235)
+scale = Vector2(0.631877, 0.523025)
+texture = ExtResource("5_p3b43")
+
+[node name="Button" type="Button" parent="img"]
+offset_left = 439.959
+offset_top = 388.127
+offset_right = 572.959
+offset_bottom = 457.127
+text = "Siguiente"
+
+[node name="Button2" type="Button" parent="img"]
+offset_left = -633.035
+offset_top = 388.127
+offset_right = -500.035
+offset_bottom = 461.127
+text = "Anterior"
+
+[node name="Button_Continuar" type="Button" parent="."]
+offset_left = 353.0
+offset_top = 436.0
+offset_right = 579.0
+offset_bottom = 510.0
+scale = Vector2(0.596129, 0.582667)
+icon = ExtResource("2_vntj8")
+flat = true
+script = ExtResource("3_1ihsh")
+
+[connection signal="pressed" from="img/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="img/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button_Continuar" to="Button_Continuar" method="_on_pressed"]

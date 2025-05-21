@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://ds40lw1fkfnnx"]
+
+[ext_resource type="Texture2D" uid="uid://dm30qmo21hehn" path="res://scenes/Creditos/Sir Marcus-menu_creditos.webp" id="1_7m1mk"]
+[ext_resource type="Texture2D" uid="uid://guh2frohxmwh" path="res://Boton_Continuar.webp" id="2_ubdu6"]
+[ext_resource type="Script" uid="uid://brt8pj2d7t4uk" path="res://button_continuar.gd" id="3_kmh1b"]
+
+[node name="Creditos" type="Node2D"]
+
+[node name="SirMarcus-menuCreditos" type="Sprite2D" parent="."]
+position = Vector2(399.328, 239.437)
+scale = Vector2(0.415158, 0.44487)
+texture = ExtResource("1_7m1mk")
+
+[node name="Button_Continuar" type="Button" parent="."]
+offset_left = 654.0
+offset_top = 412.0
+offset_right = 880.0
+offset_bottom = 486.0
+scale = Vector2(0.596129, 0.582667)
+icon = ExtResource("2_ubdu6")
+flat = true
+script = ExtResource("3_kmh1b")
+
+[connection signal="pressed" from="Button_Continuar" to="Button_Continuar" method="_on_pressed"]

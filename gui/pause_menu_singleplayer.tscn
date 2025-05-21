@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7ai4bigaryci"]
+
+[ext_resource type="PackedScene" uid="uid://dh71g61cm8k44" path="res://gui/pause_menu.tscn" id="1_pwe1t"]
+[ext_resource type="Texture2D" uid="uid://dmpwyoyn1lq3t" path="res://Boton 05.webp" id="3_jwe0o"]
+
+[node name="PauseMenu" instance=ExtResource("1_pwe1t")]
+
+[node name="Label" parent="ColorRect/CenterContainer/VBoxContainer" index="0"]
+text = "Menu pausado"
+
+[node name="SplitscreenButton" type="Button" parent="ColorRect/CenterContainer/VBoxContainer" index="3"]
+layout_mode = 2
+icon = ExtResource("3_jwe0o")
+flat = true
+
+[node name="Boton04" parent="ColorRect/CenterContainer/VBoxContainer" index="5"]
+position = Vector2(117, -37)
+
+[node name="CoinsCounter" parent="ColorRect" index="1"]
+offset_left = 31.0
+offset_top = 403.0
+offset_right = 225.0
+offset_bottom = 443.0
+
+[connection signal="pressed" from="ColorRect/CenterContainer/VBoxContainer/SplitscreenButton" to="." method="_on_splitscreen_button_pressed"]
