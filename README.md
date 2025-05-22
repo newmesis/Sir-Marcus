@@ -1,7 +1,7 @@
 # Sir Marcus
 
-# Enlace para jugar en la web:
-<a href="(https://gameofnewmesis.itch.io/sirmarcus)">
+## Enlace para jugar en la web: https://gameofnewmesis.itch.io/sirmarcus)
+
 Language: GDScript
 
 Renderer: Compatibility
