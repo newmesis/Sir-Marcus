@@ -29,7 +29,7 @@ offset_left = 385.0
 offset_top = 418.0
 offset_right = 557.0
 offset_bottom = 457.0
-text = "Cuentame tu historia"
+text = "Creditos"
 script = ExtResource("5_wqa5d")
 
 [connection signal="pressed" from="Button_Continuar" to="Button_Continuar" method="_on_pressed"]
