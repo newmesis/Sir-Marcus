@@ -24,6 +24,7 @@ https://godotengine.org/asset-library/asset/120
 - Pausa y menú de pausa.
 - Visuales en pixel art.
 - Efectos de sonido y música.
+- 
 ## Historia Resumida
 - Esta historia es sobre las andanzas de un caballero de poca fortuna, 
 que aun en su desgracia se empeña en el imposible de rescatar a su amada
