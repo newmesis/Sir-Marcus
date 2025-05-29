@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1748479780
+::res://::1748501962
 Boton 01.webp::CompressedTexture2D/CompressedTexture2D::133733727078892586::1743700410::1743700412::1::::<><><>0<>0<>7d4aaa6319c3c9c53b01f80179199072<>res://.godot/imported/Boton 01.webp-c27bebbad7f51469e9578472b04dab05.ctex::
 Boton 02.webp::CompressedTexture2D/CompressedTexture2D::9098570936646235164::1743700540::1743700625::1::::<><><>0<>0<>e0bb11a6c939fc2b3fccff1cbd40c847<>res://.godot/imported/Boton 02.webp-60d9b0aa0dbed4f0fb3fb4a59ef24362.ctex::
 Boton 03.webp::CompressedTexture2D/CompressedTexture2D::1458875747232761267::1743700589::1743700625::1::::<><><>0<>0<>5f3e7b9f458595df377f75b5ee1d668d<>res://.godot/imported/Boton 03.webp-77e33c80cd436fe41b6b613528b033dd.ctex::
@@ -10,7 +10,7 @@ Boton_Home.webp::CompressedTexture2D/CompressedTexture2D::8193992759789210427::1
 button_continuar.gd::GDScript/GDScript::3620885165136374622::1747296335::0::1::::<>Button<><>0<>0<><>::
 button_play_stop.gd::GDScript/GDScript::4449759145640988622::1747297939::0::1::::<>Button<><>0<>0<><>::
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::6419567431398995635::1741886336::0::1::::<><><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1748478293::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1748479815::0::1::::<><><>0<>0<><>::
 fantasy-medieval-ambient-237371.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::332700216409064066::1743160052::1743160052::1::::<><><>0<>0<>a464da4ed823c29955f2650c604bbc7f<>res://.godot/imported/fantasy-medieval-ambient-237371.ogg-3afca8b5a0fa0e042106b8a5153e5305.oggvorbisstr::
 game.gd::GDScript/GDScript::7983200702381616203::1743156731::0::1::::Game<>Node<><>0<>0<><>::
 game_singleplayer.tscn::PackedScene/PackedScene::2796527636363398270::1747148978::0::1::::<><><>0<>0<><>::uid://dl0efcqqa87jr::::res://game.gd<>uid://ctgumjaytuoch::::res://level/level.tscn<>uid://vh7pmputa7r3::::res://player/player.tscn<>uid://c7ai4bigaryci::::res://gui/pause_menu_singleplayer.tscn
@@ -688,7 +688,7 @@ interpolated_free_container.gd::GDScript/GDScript::4443387355770764066::17484561
 ::res://addons/tnowe_extra_controls/elements/text_init_menu/::1748477492
 menu_filler.gd::GDScript/GDScript::5230038191990458309::1748456135::0::1::::<>RefCounted<><>0<>0<><>::
 menu_filler_item.gd::GDScript/GDScript::5383345930298295981::1748456135::0::1::::<>Object<><>0<>0<><>::
-::res://ejecutable/::1748478641
+::res://ejecutable/::1748479919
 ::res://enemy/::1748477492
 enemy.gd::GDScript/GDScript::8321550802174367717::1741886336::0::1::::Enemy<>CharacterBody2D<><>0<>0<><>::
 enemy.tscn::PackedScene/PackedScene::1904667324348085::1748475360::0::1::::<><><>0<>0<><>::uid://coj0d33vyyqx1::::res://player/bullet.webp<>uid://duwm7i44o75o2::::res://enemy/explode.wav<>uid://dm7wsawmylc7b::::res://enemy/hit.wav<>uid://bjjywmvba0sve::::res://enemy/enemy.webp<>uid://dqtayxfqnhdar::::res://enemy/enemy.gd
@@ -760,7 +760,7 @@ shoot.wav::AudioStreamWAV/AudioStreamWAV::1946265577311683433::1748476338::17484
 ::res://scenes/::1748477494
 ::res://scenes/Creditos/::1748479638
 creditos.gd::GDScript/GDScript::2302356251984815125::1748423513::0::1::::<>Node2D<><>0<>0<><>::
-Creditos.tscn::PackedScene::8545442375032427327::1748477114::0::1::::<><><>0<>0<><>::uid://bxq1ih7i1jgee::::res://scenes/Historia/Sir Marcus-menu_historia.webp<>uid://72jqat13tqwr::::res://scenes/Creditos/creditos.gd<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
+Creditos.tscn::PackedScene/PackedScene::8545442375032427327::1748477114::0::1::::<><><>0<>0<><>::uid://bxq1ih7i1jgee::::res://scenes/Historia/Sir Marcus-menu_historia.webp<>uid://72jqat13tqwr::::res://scenes/Creditos/creditos.gd<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
 Sir Marcus-menu_creditos.webp::CompressedTexture2D/CompressedTexture2D::4035387477091750796::1743702148::1748416751::1::::<><><>0<>0<>e9a5c5641ae4f13e48e1c1b1c733c300<>res://.godot/imported/Sir Marcus-menu_creditos.webp-275409bb212a47195c4afac72ae55f34.ctex::
 texto codigo para creditos.txt::TextFile/TextFile::-1::1748417420::0::1::::<><><>0<>0<><>::
 ::res://scenes/Galeria/::1748477493
@@ -808,7 +808,7 @@ Boton_Historia.webp::CompressedTexture2D/CompressedTexture2D::924637717911591259
 boton_jugar.gd::GDScript/GDScript::1851217415211395977::1746644001::0::1::::<>Button<><>0<>0<><>::
 Boton_Jugar.webp::CompressedTexture2D/CompressedTexture2D::5081518746096145099::1743702772::1746642782::1::::<><><>0<>0<>f73ba16c58651e249f3f19992aa5260d<>res://.godot/imported/Boton_Jugar.webp-0887ac00f3bcee508e49fa9e1c20ea1d.ctex::
 menu_principal.gd::GDScript/GDScript::4563833317507223306::1746695849::0::1::::<>Node2D<><>0<>0<><>::
-menu_principal.tscn::PackedScene::5013485351767037479::1748479661::0::1::::<><><>0<>0<><>::uid://b6a0wyfkioyq1::::res://scenes/MenuPrincipal/menu_principal.gd<>uid://b4gyp6h06ceik::::res://scenes/MenuPrincipal/Sir Marcus-menu_principal.webp<>uid://nf5wbh20u7w6::::res://scenes/MenuPrincipal/Boton_Historia.webp<>uid://y7qupa35iixt::::res://scenes/MenuPrincipal/Boton_Creditos.webp<>uid://kumyp8tx0o7b::::res://scenes/MenuPrincipal/Boton_Galeria.webp<>uid://cenr4viylva08::::res://scenes/MenuPrincipal/Boton_Jugar.webp<>uid://1m0jsdmhf86p::::res://scenes/MenuPrincipal/boton_jugar.gd<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
+menu_principal.tscn::PackedScene/PackedScene::5013485351767037479::1748479661::0::1::::<><><>0<>0<><>::uid://b6a0wyfkioyq1::::res://scenes/MenuPrincipal/menu_principal.gd<>uid://b4gyp6h06ceik::::res://scenes/MenuPrincipal/Sir Marcus-menu_principal.webp<>uid://nf5wbh20u7w6::::res://scenes/MenuPrincipal/Boton_Historia.webp<>uid://y7qupa35iixt::::res://scenes/MenuPrincipal/Boton_Creditos.webp<>uid://kumyp8tx0o7b::::res://scenes/MenuPrincipal/Boton_Galeria.webp<>uid://cenr4viylva08::::res://scenes/MenuPrincipal/Boton_Jugar.webp<>uid://1m0jsdmhf86p::::res://scenes/MenuPrincipal/boton_jugar.gd<>uid://guh2frohxmwh::::res://Boton_Continuar.webp<>uid://brt8pj2d7t4uk::::res://button_continuar.gd
 Sir Marcus-menu_principal.webp::CompressedTexture2D/CompressedTexture2D::4435769050670248330::1743702111::1746642783::1::::<><><>0<>0<>f54eb7b75320aeeba9e41aa117c358d6<>res://.godot/imported/Sir Marcus-menu_principal.webp-f47c9879c4dacf10d1e9b5daefa355ea.ctex::
 ::res://scenes/Puerta Castillo/::1748477493
 card.gd::GDScript/GDScript::8538022151335752961::1748474182::0::1::::<>Node2D<><>0<>0<><>::
@@ -835,7 +835,7 @@ puerta.tscn::PackedScene/PackedScene::4746287957490473419::1748476134::0::1::::<
 readme.md::TextFile/TextFile::-1::1748472121::0::1::::<><><>0<>0<><>::
 ::res://scenes/video/::1748477494
 demo_01.ogv::VideoStreamTheora/VideoStreamTheora::6806569087898099488::1747247445::0::1::::<><><>0<>0<><>::
-::res://web/::1748479595
-index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::6492816652627092337::1748478292::1748479595::1::::<><><>0<>0<>cf32069e23e1e90028a713743cbae320<>res://.godot/imported/index.apple-touch-icon.png-939ec69c79bbf504b92ad8ceed469d51.ctex::
-index.icon.png::CompressedTexture2D/CompressedTexture2D::7519885214712368389::1748478292::1748479595::1::::<><><>0<>0<>b07916e6cd495948fe54f72dbb6f9cf5<>res://.godot/imported/index.icon.png-c615af856eabc03ca93d51f6a8f07b60.ctex::
-index.png::CompressedTexture2D/CompressedTexture2D::2430935341858742598::1748478292::1748479595::1::::<><><>0<>0<>c71be45619e9beaabe3d2a40342b8019<>res://.godot/imported/index.png-80964ad67552d78b1e33f58ad16188ff.ctex::
+::res://web/::1748479807
+index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::6492816652627092337::1748479807::1748479595::1::::<><><>0<>0<>cf32069e23e1e90028a713743cbae320<>res://.godot/imported/index.apple-touch-icon.png-939ec69c79bbf504b92ad8ceed469d51.ctex::
+index.icon.png::CompressedTexture2D/CompressedTexture2D::7519885214712368389::1748479807::1748479595::1::::<><><>0<>0<>b07916e6cd495948fe54f72dbb6f9cf5<>res://.godot/imported/index.icon.png-c615af856eabc03ca93d51f6a8f07b60.ctex::
+index.png::CompressedTexture2D/CompressedTexture2D::2430935341858742598::1748479807::1748479595::1::::<><><>0<>0<>c71be45619e9beaabe3d2a40342b8019<>res://.godot/imported/index.png-80964ad67552d78b1e33f58ad16188ff.ctex::
