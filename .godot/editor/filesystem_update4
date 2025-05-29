@@ -1,2 +1,3 @@
+res://scenes/MenuPrincipal/menu_principal.tscn
 res://scenes/Historia/estilo_dialogo.tres
-res://scenes/Historia/historia.gd
+res://scenes/Historia/historia.dtl
