@@ -25,6 +25,7 @@ config/icon="uid://bi5cse7d4spxa"
 
 Music="*res://Musica.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+global="*res://scenes/Puerta Castillo/global_gd.gd"
 
 [debug]
 
@@ -33,11 +34,9 @@ gdscript/warnings/untyped_declaration=1
 [dialogic]
 
 directories/dch_directory={
-"Creditos/Sir Marcus": "res://scenes/Creditos/Sir Marcus.dch",
 "Sir Marcus": "res://scenes/Historia/Sir Marcus.dch"
 }
 directories/dtl_directory={
-"creditos": "res://scenes/Creditos/creditos.dtl",
 "historia": "res://scenes/Historia/historia.dtl"
 }
 glossary/default_case_sensitive=true
@@ -75,8 +74,8 @@ text/split_at_new_lines_as=1
 
 [display]
 
-window/size/viewport_width=800
-window/size/viewport_height=480
+window/size/viewport_width=1600
+window/size/viewport_height=960
 window/size/window_width_override=1600
 window/size/window_height_override=960
 window/stretch/mode="canvas_items"
@@ -85,7 +84,14 @@ window/stretch/scale_mode="integer"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/gemini_godot/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/gemini_godot/plugin.cfg", "res://addons/tnowe_extra_controls/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://scenes/": "red",
+"res://scenes/Puerta Castillo/": "teal"
+}
 
 [importer_defaults]
 
@@ -238,6 +244,11 @@ locale/test="es"
 2d_physics/layer_3="coins"
 2d_physics/layer_4="platforms"
 2d_physics/layer_5="ground"
+
+[maaacks_credits_scene]
+
+disable_plugin_dialogues=true
+copy_path="res://scenes/Creditos"
 
 [physics]
 

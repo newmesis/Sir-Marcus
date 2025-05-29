@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://b8vew0u72fs2v"]
+
+[ext_resource type="Script" uid="uid://bcv0l4uuwe57c" path="res://scenes/Puerta Castillo/puerta.gd" id="1_aqk2v"]
+[ext_resource type="PackedScene" uid="uid://kh8ttckargjv" path="res://scenes/Puerta Castillo/dropable.tscn" id="1_f3sb7"]
+[ext_resource type="Texture2D" uid="uid://bisfs26biynhe" path="res://scenes/Puerta Castillo/puerta castillo.webp" id="2_dwbse"]
+[ext_resource type="PackedScene" uid="uid://cnso5mc8u0d8d" path="res://scenes/Puerta Castillo/movible.tscn" id="3_tlwt5"]
+[ext_resource type="PackedScene" uid="uid://bkdbp0p4rt7hl" path="res://scenes/Puerta Castillo/dropable2.tscn" id="4_036b0"]
+[ext_resource type="PackedScene" uid="uid://82ln4r876ivu" path="res://scenes/Puerta Castillo/dropable3.tscn" id="5_dwbse"]
+[ext_resource type="PackedScene" uid="uid://cwqhf13bt2gub" path="res://scenes/Puerta Castillo/movible2.tscn" id="7_gbfbk"]
+[ext_resource type="PackedScene" uid="uid://2y10g0ylgiha" path="res://scenes/Puerta Castillo/movible1.tscn" id="8_ioo17"]
+
+[node name="Puerta" type="Node2D"]
+script = ExtResource("1_aqk2v")
+
+[node name="PuertaCastillo" type="Sprite2D" parent="."]
+position = Vector2(1043, 478)
+scale = Vector2(1.83951, 1.79118)
+texture = ExtResource("2_dwbse")
+
+[node name="Instrucciones" type="Label" parent="."]
+offset_left = 67.0
+offset_top = 833.0
+offset_right = 414.0
+offset_bottom = 883.0
+theme_override_font_sizes/font_size = 36
+text = "Reconstrulle la llave"
+
+[node name="dropable" parent="." instance=ExtResource("1_f3sb7")]
+position = Vector2(731, 776)
+
+[node name="dropable2" parent="." instance=ExtResource("4_036b0")]
+position = Vector2(1049, 789)
+
+[node name="dropable3" parent="." instance=ExtResource("5_dwbse")]
+position = Vector2(1332, 773)
+
+[node name="ogro1" parent="." groups=["dropable"] instance=ExtResource("3_tlwt5")]
+position = Vector2(100, 85)
+
+[node name="ogro2" parent="." groups=["dropable"] instance=ExtResource("7_gbfbk")]
+position = Vector2(100, 256)
+
+[node name="ogro3" parent="." groups=["dropable"] instance=ExtResource("8_ioo17")]
+position = Vector2(96, 408)

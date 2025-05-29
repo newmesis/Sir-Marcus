@@ -1,4 +1,10 @@
+CollisionShape2D
+CharacterBody2D
+StaticBody2D
+ColorRect
+RichTextLabel
 Button
+Area2D
 Sprite2D
 TextureRect
 Control
@@ -6,9 +12,3 @@ VideoStreamPlayer
 DialogicEditor
 AnimationPlayer
 Node2D
-TextureButton
-HSlider
-AudioStreamPlayer
-Label
-VSlider
-CollisionPolygon2D

@@ -16,5 +16,9 @@ func _on_button_cuentame_pressed() -> void:
 	# var dialogic = Engine.get_singleton("Dialogic")
 	# dialogic.start_dialogue("res://scenes/Historia/historia.dtl")
 	# dialogic.satar_dialogue("historia")
-	Dialogic.start("creditos")
+	Dialogic.start("historia")
 	
+
+
+func _on_button_pressed() -> void:
+	pass # Replace with function body.

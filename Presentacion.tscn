@@ -11,42 +11,42 @@
 script = ExtResource("1_bqhdm")
 
 [node name="SirMarcus" type="Sprite2D" parent="."]
-position = Vector2(399.551, 239.938)
-scale = Vector2(0.415158, 0.447655)
+position = Vector2(799.085, 476.938)
+scale = Vector2(0.830473, 0.887766)
 texture = ExtResource("1_tn8pt")
 
 [node name="Button_Continuar" type="Button" parent="."]
-offset_left = 646.0
-offset_top = 423.0
-offset_right = 872.0
-offset_bottom = 497.0
+offset_left = 1382.0
+offset_top = 862.0
+offset_right = 1608.0
+offset_bottom = 936.0
 scale = Vector2(0.596129, 0.582667)
 icon = ExtResource("2_nc3lv")
 flat = true
 script = ExtResource("3_onoeh")
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
-offset_left = 347.0
-offset_top = 163.0
-offset_right = 2263.0
-offset_bottom = 1241.0
+offset_left = 712.0
+offset_top = 383.0
+offset_right = 3960.0
+offset_bottom = 2300.0
 scale = Vector2(0.197033, 0.210774)
 stream = ExtResource("5_p3vbn")
 autoplay = true
 
 [node name="Button_play" type="Button" parent="."]
-offset_left = 451.0
-offset_top = 432.0
-offset_right = 541.0
-offset_bottom = 463.0
+offset_left = 1210.0
+offset_top = 871.0
+offset_right = 1300.0
+offset_bottom = 902.0
 text = "Play"
 script = ExtResource("6_kyib7")
 
 [node name="Button_stop" type="Button" parent="."]
-offset_left = 369.0
-offset_top = 432.0
-offset_right = 434.0
-offset_bottom = 464.0
+offset_left = 1091.0
+offset_top = 871.0
+offset_right = 1156.0
+offset_bottom = 903.0
 text = "Stop"
 
 [connection signal="pressed" from="Button_Continuar" to="Button_Continuar" method="_on_pressed"]

@@ -1,2 +1,20 @@
-res://Presentacion.tscn
+res://enemy/enemy.tscn
 res://scenes/Historia/estilo_dialogo.tres
+res://level/tileset.tres
+res://level/props/wind_sway.tres
+res://puerta.tscn
+res://level/coin.gd
+res://level/level.tscn
+res://level/llave.tscn
+res://level/llave.gd
+res://scenes/Puerta Castillo/puerta.tscn
+res://Presentacion.tscn
+res://gui/pause_menu_splitscreen.tscn
+res://gui/theme.tres
+res://gui/pause_menu_singleplayer.tscn
+res://scenes/MenuPrincipal/menu_principal.tscn
+res://scenes/Historia/Historia.tscn
+res://scenes/Historia/historia.gd
+res://scenes/Galeria/Galeria.tscn
+res://scenes/Creditos/creditos.tscn
+res://scenes/Historia/historia.dtl

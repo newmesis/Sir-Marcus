@@ -14,8 +14,8 @@
 script = ExtResource("1_au3n3")
 
 [node name="SirMarcus-menuPrincipal" type="Sprite2D" parent="."]
-position = Vector2(399.276, 239.562)
-scale = Vector2(0.414926, 0.444638)
+position = Vector2(795, 487)
+scale = Vector2(0.8305, 0.892178)
 texture = ExtResource("1_uvpjq")
 
 [node name="Boton_Historia" type="Button" parent="SirMarcus-menuPrincipal"]
@@ -52,28 +52,29 @@ flat = true
 script = ExtResource("6_bc636")
 
 [node name="Button_Continuar" type="Button" parent="."]
-offset_left = 646.0
-offset_top = 423.0
-offset_right = 872.0
-offset_bottom = 497.0
+offset_left = 1411.0
+offset_top = 834.0
+offset_right = 1637.0
+offset_bottom = 927.0
 scale = Vector2(0.596129, 0.582667)
 icon = ExtResource("7_eykb7")
 flat = true
 script = ExtResource("8_au3n3")
 
 [node name="Button" type="Button" parent="."]
-offset_left = 364.0
-offset_top = 397.0
-offset_right = 493.0
-offset_bottom = 442.0
+offset_left = 761.0
+offset_top = 888.0
+offset_right = 890.0
+offset_bottom = 933.0
+scale = Vector2(1.60974, 1.71271)
 text = "Musica On / Off"
 flat = true
 
 [node name="HSlider" type="HSlider" parent="."]
-offset_left = 366.0
-offset_top = 453.0
-offset_right = 491.0
-offset_bottom = 469.0
+offset_left = 1000.0
+offset_top = 906.0
+offset_right = 1213.0
+offset_bottom = 956.0
 min_value = -10.0
 max_value = 10.0
 step = 0.5

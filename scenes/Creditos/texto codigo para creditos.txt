@@ -1,0 +1,32 @@
+[center][font_size=48]Colaboradores[/font_size]
+
+[font_size=32]Trabajo[/font_size]
+Gato principal: Marco Aurelio Vespasiano Trajano
+Gato secundario: Leo el rubio
+[url=]Person w/ Link[/url]  
+
+
+[font_size=48]Recursos de codigo /[/font_size]
+[font_size=32]Recursos graficos[/font_size]
+[font_size=24]Recursos musicales[/font_size]
+Author: [url=]Nombre[/url]  
+Source: [url=]Enlace : webpage.html[/url]  
+License: [url=]Licencia[/url]
+
+
+[font_size=48]herramnientas[/font_size]
+[font_size=24]Godot[/font_size]
+Author: [url=https://godotengine.org/contact]Juan Linietsky, Ariel Manzur, and colaboradores[/url]  
+Source: [url=https://godotengine.org/]godotengine.org[/url]  
+License: [url=https://github.com/godotengine/godot/blob/master/LICENSE.txt]MIT Licencia[/url] 
+
+[font_size=24]Git[/font_size]
+Author: [url=https://github.com/torvalds]Linus Torvalds[/url]  
+Source: [url=https://git-scm.com/downloads]git-scm.com[/url]  
+License: [url=https://opensource.org/licenses/GPL-2.0]GNU General Public License version 2[/url]
+
+[font_size=24]Godot Credits Scene[/font_size]
+Author: [url=https://github.com/Maaack/Godot-Credits-Scene/graphs/contributors]Marek Belski[/url]  
+Source: [url=https://github.com/Maaack/Godot-Credits-Scene]github: Godot-Credits-Scene[/url]  
+License: [url=LICENSE.txt]MIT License[/url]  
+[/center]

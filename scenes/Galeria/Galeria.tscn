@@ -10,35 +10,35 @@
 script = ExtResource("1_ub45t")
 
 [node name="SirMarcus-menuGaleria" type="Sprite2D" parent="."]
-position = Vector2(399.871, 239.687)
-scale = Vector2(0.415622, 0.444406)
+position = Vector2(799.521, 479.687)
+scale = Vector2(0.831059, 0.890089)
 texture = ExtResource("1_upox5")
 
 [node name="img" type="Sprite2D" parent="."]
-position = Vector2(429, 235)
-scale = Vector2(0.631877, 0.523025)
+position = Vector2(1106, 574)
+scale = Vector2(1.16878, 0.967441)
 texture = ExtResource("5_p3b43")
 
 [node name="Button" type="Button" parent="img"]
-offset_left = 439.959
-offset_top = 388.127
-offset_right = 572.959
-offset_bottom = 457.127
+offset_left = 207.319
+offset_top = 317.384
+offset_right = 340.319
+offset_bottom = 386.384
 text = "Siguiente"
 
 [node name="Button2" type="Button" parent="img"]
-offset_left = -633.035
-offset_top = 388.127
-offset_right = -500.035
-offset_bottom = 461.127
+offset_left = -352.917
+offset_top = 319.296
+offset_right = -219.917
+offset_bottom = 392.296
 text = "Anterior"
 
 [node name="Button_Continuar" type="Button" parent="."]
-offset_left = 353.0
-offset_top = 436.0
-offset_right = 579.0
-offset_bottom = 510.0
-scale = Vector2(0.596129, 0.582667)
+offset_left = 1015.0
+offset_top = 877.0
+offset_right = 1241.0
+offset_bottom = 956.0
+scale = Vector2(0.839041, 0.982105)
 icon = ExtResource("2_vntj8")
 flat = true
 script = ExtResource("3_1ihsh")
