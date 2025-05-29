@@ -24,11 +24,16 @@ https://godotengine.org/asset-library/asset/120
 - Pausa y menú de pausa.
 - Visuales en pixel art.
 - Efectos de sonido y música.
+- Al final de cada nivel hay que resolver un puzle para conseguir terminar la pantalla. 
+	lo ideal sería que para resolver el puzle, tuviera el player que recoger las piezas 
+
+
 ## Historia Resumida
 - Esta historia es sobre las andanzas de un caballero de poca fortuna, 
 que aun en su desgracia se empeña en el imposible de rescatar a su amada
 secuestrada por un poderoso mago que la tiene en lo alto de la mas alta torre
 de un terrible castillo.
+
 Este castillo terrible, esta plagado de terrores y peligros de todos los tiempos
 que el mago ha traído del con fin del tiempo para guardar su castillo.
 El caballero no entiende que esos monstruos como el los llama, son en realidad,
@@ -36,7 +41,10 @@ bestias del pasado jurásico, o robots y maquinas de guerra del futuro, animales
 de todos los tiempos fieles al mago por su magia que lucharan de manera terrible
 para defender el castillo.
 
+
+
 ## Historia contada por el propio protagonista.
+
 Era ser que se era...
 
   Mi nombre es Don Marco de la Sombra Rota, y si la fortuna fuera un manto, el mío estaría raído y lleno de agujeros como un queso olvidado. Mi armadura, antaño espejo del sol, hoy es un collage de óxido y remiendos; mi espada, "Cortatinieblas", tiene más muescas que dientes un anciano; y mi rocín, "Esperanza", es tan flaco que más parece una percha con crines. Pero ni la pobreza ni el hambre que a menudo me roe las entrañas han podido mellar la única joya que poseo: el amor por mi Lady Leonor.
